@@ -1,49 +1,33 @@
 @font-face {
     font-family: 'Knockout';
     src: url('../Fonts/Knockout\ HTF34JuniorSumo\ Regular.otf');
+    }
+
+body{
+    background-image: url(../Images/Wallpaper.png);
+    background-attachment: fixed;
 }
 
-body {  
-    background-image: url(../Images/Wallpaper.png)
-}
-
-.logo {
-    margin-left: 130px;
-    width: 50%;
-    height: 45%;
-}
-
-.init_text_box {
-    margin-top: 80px;
+.init_text_box{
+    margin-top: 30px;
     color: white;
     border-radius: 15px;
     font-family: 'knockout';
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
     position: absolute;
     border-radius: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20px;
+    margin-right: 29px;
+    margin-bottom: 30px;
 }
 
-.init_text {
+.title{
+    margin-left: 40%;
+}
+
+td{
     text-align: justify;
-}
-
-h3 b {
-    color: rgb(125, 163, 245);
-    margin-left: 10%;
-}
-
-.div_input {
-    margin-left: 19%;
-}
-
-.input {
-    border-style: none;
-    padding: 5px;
-    border-radius: 5px;
-    color: gray;
 }
 
 .butn {
@@ -60,6 +44,7 @@ h3 b {
     background: #000000;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    margin-left: 45%;
 }
 
 .butn:hover {
@@ -70,13 +55,4 @@ h3 b {
     background-image: -o-linear-gradient(top, #000000, #4d4e4f);
     background-image: linear-gradient(to bottom, #000000, #4d4e4f);
     text-decoration: none;
-}
-
-.links{
-    text-decoration: none;
-    color: white;
-}
-
-.links:hover{
-    color: rgb(139, 143, 145);
 }
