@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Prologue</title>
+    <link rel="stylesheet" href="../CSS/prologue.css">
+    <script src="../JS/prologue.js"></script>
+    <link rel="icon" href="../Images/Icon.png">
+
+    <style>
+        #animacao {
+            background-color: white;
+            color: white;
+            height: 50%;
+            font-size: 5px;
+            width: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+
+            animation: 10s ease-in reverse both slidein;
+
+        }
+
+        @keyframes slidein {
+            from {
+                transform: scaleX(0);
+            }
+
+            to {
+                transform: scaleX(1);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="game">
+        <h2 id="title">One Year Ago/2:00</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="ImagesPrologue/image1.png" id="pictures">
+                </td>
+                <td class="text" id="text">
+                    <i>The story starts with the entrance and the back part of the lodge.</i>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <button class="butn" id="btnNext" onclick="algo()">Next</button>
+        <br><br>
+        <div id="aa">
+        </div>
+    </div>
+</body>
+<script>
+
+    function algo() {
+        aa.innerHTML = `
+        <div id='animacao'>ss</div>`;
+        var t = 10;
+        setInterval(() => {
+            if (t == 1) {
+                alert('wd,amnfjkefkej');
+                clearInterval();
+            }
+            t--;
+        }, 1000);
+    }
+</script>
+
+</html>
